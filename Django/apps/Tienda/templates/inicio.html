@@ -1,5 +1,16 @@
 {% extends "./base.html" %}
+{% load static %}
+
+{% block head %}
+
+{% endblock %}
+
 
 {% block body %}
     <h1>Este es el inicio de mi web con Django</h1>
+{% endblock %}
+
+
+{% block script %}
+    <script src="{% static 'JS/funciones.js' %}"></script>
 {% endblock %}
